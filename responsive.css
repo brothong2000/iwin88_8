@@ -1,0 +1,145 @@
+@media (min-width: 320px) and (max-width: 480px){
+    p{
+        font-size: 12px;
+    }
+    .ul li {
+        font-size: 12px;
+    }
+    .menu{
+        display: none;
+    }
+    .logo img{
+        width: 100%;
+        padding: 5px 0px;
+    }
+    .sp1 .sp2{
+        display: block;
+    }
+    .sp1{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .logo2{
+        width: 100%;
+    }
+    .logo2 img{
+        width: 40%;
+    }
+    .st{
+        width: 100%;
+    }
+    .strong{
+        font-size: 18px;
+    }
+    .mt-5 {
+    margin-top: 1rem!important;
+    }
+    .icon_A1{
+        width: 100%;
+    }
+    .icon_A1 img{
+        width: 30%;
+    }
+    .icon_game{
+        width: 50%;
+    }
+    .fo{
+        width: 100%;
+    }
+    .foo{
+        width: 100%;
+    }
+    .foot{
+        width: 100%;
+    }
+    .foo p a{
+        font-size: 12px;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    p{
+        font-size: 12px;
+    }
+    .ul li {
+        font-size: 12px;
+    }
+    .menu{
+        display: none;
+    }
+    .logo img{
+        width: 100%;
+        padding: 5px 0px;
+    }
+    .sp1 .sp2{
+        display: block;
+    }
+    .sp1{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .icon_A1 img{
+        width: 50%;
+    }
+   .icon_A1{
+    width: 33%;
+   }
+   .icon_game{
+    width: 33%;
+   }
+   .fo{
+    width: 100%;
+    }
+    .fo img{
+        width: 50%;
+    }
+    .foo{
+        width: 100%;
+    }
+    .foot img{
+        width: 10%;
+    }
+    .foot{
+        width: 100%;
+    }
+    .foo p a{
+        font-size: 12px;
+    }
+    .A1{
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .logo img {
+        width: 90%;
+    }
+    .A1{
+        display: none;
+    }
+    .icon_A1 img{
+        width: 50%;
+    }
+   .icon_A1{
+    width: 20%;
+   }
+   .icon_game{
+    width: 33%;
+   }
+   .fo{
+    width: 100%;
+    }
+    .fo img{
+        width: 50%;
+    }
+    .foo{
+        width: 100%;
+    }
+    .foot img{
+        width: 10%;
+    }
+    .foot{
+        width: 100%;
+    }
+    .foo p a{
+        font-size: 12px;
+    }
+}

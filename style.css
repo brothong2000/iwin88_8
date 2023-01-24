@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto';
+    /* color: white; */
+    background-image: url('./images/slide/14.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.logo img{
+    width: 50%;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 15px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 15px;
+    padding: 5px 20px;
+}
+.menu ul li:hover a{
+    background:red;
+    border-radius: 20px;
+}
+.header{
+    border:1px solid red;
+    box-shadow: 0px 0px 20px red;
+}
+/* /// */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -50px;;
+    background-color:black;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    padding-left: 50px;
+    margin-top: 30px;
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  .overlay a:hover, .overlay a:focus {
+    color: red;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    font-size: 40px;
+  }
+  .sp1 .sp2{
+    font-size:30px;
+    cursor:pointer;
+    color: white;
+    display: none;
+  }
+  .logo2 img{
+    width: 50%;
+  }
+  .st strong{
+    font-size: 22px;
+  }
+  p{
+    font-size: 18px;
+  }
+  .container{
+    background-color: antiquewhite;
+  }
+  .stro{
+    color: red;
+  }
+  .icon_game img{
+    /* transform: scale(); */
+    transition: all .5s;
+  }
+  .icon_game img:hover{
+    transform: scale(1.5);
+  }
+  .icon1 img{
+    width:70%;
+  }
+  /* .icon2 img{
+    width: 45%;
+  } */
+  .icon img{
+    width: 60%;
+  }
+  .slide img{
+    width: 100%;
+  }
+  .fo img{
+    width: 100%;
+  }
+  .foo p a{
+    font-size: 15px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: white
+  }
+  .pp{
+    font-size: 15px;
+    color: red;
+  }
+  .footer p{
+    color: white;
+  }
+  .foot img{
+    width: 15%;
+    padding-left: 15px;
+  }
+  hr{
+    /* color: red; */
+    border: 2px solid red;
+  }
+  .header{
+    position: sticky;
+    top: 0px;
+  }
